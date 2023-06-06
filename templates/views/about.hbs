@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+
+  <body>
+    <!-- Navbar  -->
+    {{>navbar}} 
+
+    <!-- Main Header  -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left section of the main header  -->
+            <div class="col-md-6 col-12 main_header_right">
+                <figure>
+                  <img src="images/aboutme.png" alt="" class="img-fluid display_images">
+                </figure>
+              </div>
+              <!-- right section of the main header  -->
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Hi, this is Rahul Singh</p>
+              <h1>
+                I am a <span class="text_color">MERN Stack Developer</span>. 
+              </h1>
+              <a href="https://github.com/rahulsr37" target="_blank"><button>about me</button></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer element  -->
+    {{>footer}}
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerlinks}}
+  </head>
+
+  <body>
+    <!-- Navbar  -->
+    {{>navbar}} 
+
+    <!-- Main Header  -->
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left section of the main header  -->
+            <div class="col-md-6 col-12 main_header_right">
+                <figure>
+                  <img src="images/error.png" alt="" class="img-fluid display_images">
+                </figure>
+              </div>
+              <!-- right section of the main header  -->
+            <div class="col-md-6 col-12 main_header_left">
+              <p>Cloudy with a Chance of 404</p>
+              <h1>
+                Looks like the page you're looking for got caught in a <span class="text_color">cloud drift</span>. 
+              </h1>
+              <a href="/"><button>Back to home</button></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer element  -->
+    {{>footer}}
+  </body>
+</html>
